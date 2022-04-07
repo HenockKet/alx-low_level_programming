@@ -3,7 +3,7 @@
 int main(void)
 /*
  * the function is void thus doesn't return any value
- * */	
+*/	
 {
 char str1[] = "\"Programming is like building a multilingual puzzle";
 
