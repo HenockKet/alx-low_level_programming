@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 /**
  * main - has no value
  * Return: 0 after the function ends
