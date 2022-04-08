@@ -5,8 +5,7 @@
  * main - has no value
  * Return: 0 is the return value
 */
-int main(void)i
-
+int main(void)
 {
 int n, ld;
 
