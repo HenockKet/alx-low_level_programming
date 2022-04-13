@@ -2,9 +2,8 @@
 
 int _islower(int c)
 {
-int x = _islower(c);
-if (x == 0){
-	return (0);}
-else{
+if (_islower(c)){
 	return (1);}
+else{
+	return (0);}
 }
