@@ -2,8 +2,10 @@
 
 int _islower(int c)
 {
-if(_islower(c) != 0)
-	return (1);
-else
-	return (0);
+int v;
+v = _islower(c);
+if (v != 0)
+return (1);
+if (v = 0)
+return (0);
 }
