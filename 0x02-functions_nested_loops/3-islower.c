@@ -1,9 +1,11 @@
 #include "main.h"
 
 int _islower(int c)
+char x;
 {
-if (_islower(c) == 0)
+x = '_islower(c)';
+for (x = '0')
 	return (0);
-else
+for (x > '0')
 	return (1);
 }
