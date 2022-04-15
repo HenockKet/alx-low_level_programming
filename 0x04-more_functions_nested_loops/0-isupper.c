@@ -5,6 +5,9 @@ int _isupper(int i)
 char c;
 
 if ( c <= 'A' && c >= 'Z')
-	return (1);
+	i = 1;
+else
+	i = 0;
 
+return (i);
 }
