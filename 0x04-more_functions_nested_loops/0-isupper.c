@@ -4,10 +4,8 @@ int _isupper(int i)
 {
 char c;
 
-if ( c <= 'A' && c >= 'Z')
+if (isupper(c))
 	i = 1;
 else
 	i = 0;
-
-return (i);
 }
