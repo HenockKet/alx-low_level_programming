@@ -7,5 +7,9 @@
  */
 void print_rev(char *str)
 {
-puts(strrev(str));
+int i;
+
+for(int i=(strlen(str)-1);i>=0;i--)
+_putchar(str[i]);
+_putchar('\n');
 }
