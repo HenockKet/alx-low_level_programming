@@ -16,5 +16,5 @@ m = strlen(str) / 2;
 
 for (i = m; i <= l; i++)
 _putchar(str[i]);
-
+_putchar('\n');
 }
