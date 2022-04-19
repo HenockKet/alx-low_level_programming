@@ -12,13 +12,16 @@ int l;
 int m;
 
 l = strlen(str);
-if ( l % 2 == 0){
-m = strlen(str) / 2;
+if (l % 2 == 0)
+{
+m = l / 2;
 for (i = m; i <= l - 1; i++)
 _putchar(str[i]);
-_putchar('\n');}
-else{
-m = (strlen(str) - 1) / 2;
+_putchar('\n');
+}
+else
+{
+m = (l - 1) / 2;
 for (i = m; i <= l - 1; i++)
 _putchar(str[i]);
 _putchar('\n');
