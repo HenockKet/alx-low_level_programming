@@ -15,7 +15,7 @@ l = strlen(str);
 if (l % 2 == 0)
 {
 m = l / 2;
-for (i = m; i <= l - 1; i++)
+for (i = m; i <= l; i++)
 _putchar(str[i]);
 _putchar('\n');
 }
