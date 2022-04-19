@@ -11,7 +11,7 @@ int i;
 int l;
 int m;
 
-l = strlen(str) - 1;
+l = strlen(str);
 if ( l % 2 == 0){
 m = strlen(str) / 2;
 for (i = m; i <= l; i++)
