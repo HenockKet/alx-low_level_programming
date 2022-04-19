@@ -21,6 +21,6 @@ else{
 m = (strlen(str) - 1) / 2;
 for (i = m; i <= l; i++)
 _putchar(str[i]);
-_putchar('\n');}
+_putchar('\n');
 }
 }
